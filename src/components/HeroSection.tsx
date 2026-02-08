@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function HeroSection() {
     return (
         <section
@@ -22,6 +24,18 @@ export default function HeroSection() {
                     <line x1="0" y1="250" x2="600" y2="250" stroke="white" strokeWidth="1" />
                     <line x1="0" y1="500" x2="600" y2="500" stroke="white" strokeWidth="1" />
                 </svg>
+            </div>
+
+            {/* Hero image — right side, desktop only */}
+            <div className="pointer-events-none absolute right-0 top-0 z-[1] hidden lg:block lg:w-[55%] xl:w-[52%]">
+                <Image
+                    src="/hero-profile.png"
+                    alt="Kunststoffprofile"
+                    width={616}
+                    height={405}
+                    className="w-full object-contain opacity-60"
+                    priority
+                />
             </div>
 
             {/* Content wrapper — centered within max-w container */}
