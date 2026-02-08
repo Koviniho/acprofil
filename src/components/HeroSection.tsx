@@ -26,14 +26,14 @@ export default function HeroSection() {
                 </svg>
             </div>
 
-            {/* Hero image — right side, desktop only */}
-            <div className="pointer-events-none absolute right-0 top-0 z-[1] hidden lg:block lg:w-[55%] xl:w-[52%]">
+            {/* Hero image — right side */}
+            <div className="pointer-events-none absolute right-0 top-0 z-[1] w-[70%] opacity-30 sm:w-[60%] sm:opacity-40 lg:w-[55%] lg:opacity-60 xl:w-[52%]">
                 <Image
                     src="/hero-profile.png"
                     alt="Kunststoffprofile"
                     width={616}
                     height={405}
-                    className="w-full object-contain opacity-60"
+                    className="w-full object-contain"
                     priority
                 />
             </div>
