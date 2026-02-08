@@ -52,7 +52,7 @@ export default function Navigation() {
         <nav className="mx-auto max-w-7xl px-6 sm:px-10 md:px-16 lg:px-20">
           <div className="flex h-16 items-center justify-between lg:h-[72px]">
             <a href="/" className="relative z-10 flex shrink-0 items-center transition-opacity duration-300 hover:opacity-80">
-              <Image src="/logo.png" alt="AC PROFIL AG" width={160} height={32} className={`h-8 w-auto transition-all duration-500 sm:h-9 ${scrolled ? 'brightness-0 opacity-90' : 'drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)]'}`} priority />
+              <Image src="/logo.png" alt="AC PROFIL AG" width={160} height={32} className="h-8 w-auto sm:h-9" priority />
             </a>
 
             {/* Desktop Nav */}
