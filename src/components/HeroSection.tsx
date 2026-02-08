@@ -4,7 +4,7 @@ export default function HeroSection() {
     return (
         <section
             id="start"
-            className="relative flex min-h-[100svh] items-start overflow-hidden bg-navy"
+            className="relative flex min-h-0 items-start overflow-hidden bg-navy lg:min-h-[100svh]"
         >
             {/* Background gradient */}
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-navy via-[#0f1d35] to-[#162a4a]" />
@@ -39,7 +39,7 @@ export default function HeroSection() {
             </div>
 
             {/* Content wrapper — centered within max-w container */}
-            <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pt-28 pb-24 sm:px-10 sm:pt-32 sm:pb-28 md:px-16 lg:px-20 lg:pt-36 lg:pb-0">
+            <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pt-36 pb-24 sm:px-10 sm:pt-40 sm:pb-28 md:px-16 lg:px-20 lg:pt-36 lg:pb-0">
                 <div className="max-w-2xl xl:max-w-[720px]">
                     {/* Overline */}
                     <div className="mb-5 flex items-center gap-3 sm:mb-6">
