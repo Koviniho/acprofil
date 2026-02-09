@@ -43,8 +43,8 @@ export default function HeroSection() {
                 <div className="max-w-2xl xl:max-w-[720px]">
                     {/* Overline */}
                     <div className="mb-5 flex items-center gap-3 sm:mb-6">
-                        <div className="h-px w-8 bg-brass/70 sm:w-10" />
-                        <span className="text-[11px] font-medium uppercase tracking-[0.18em] text-brass/80 sm:text-xs sm:tracking-[0.22em]">
+                        <div className="h-px w-8 bg-white/30 sm:w-10" />
+                        <span className="text-[11px] font-medium uppercase tracking-[0.18em] text-white/50 sm:text-xs sm:tracking-[0.22em]">
                             Seit 1995 ISO 9001 zertifiziert
                         </span>
                     </div>
@@ -69,7 +69,7 @@ export default function HeroSection() {
                     <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
                         <a
                             href="#kontakt"
-                            className="inline-flex items-center justify-center gap-2 rounded-lg bg-brass px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brass/25 transition-all duration-300 hover:bg-brass-light hover:shadow-brass/35 hover:-translate-y-0.5 sm:px-6 sm:py-3.5"
+                            className="inline-flex items-center justify-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-semibold text-navy shadow-lg shadow-black/15 transition-all duration-300 hover:bg-white/90 hover:shadow-black/25 hover:-translate-y-0.5 sm:px-6 sm:py-3.5"
                         >
                             Projekt besprechen
                             <svg
@@ -102,7 +102,7 @@ export default function HeroSection() {
                             { value: '100%', label: 'Swiss Made' },
                         ].map(stat => (
                             <div key={stat.value} className="group">
-                                <div className="font-heading text-xl font-bold text-white transition-colors duration-300 group-hover:text-brass sm:text-2xl">
+                                <div className="font-heading text-xl font-bold text-white transition-colors duration-300 group-hover:text-white/80 sm:text-2xl">
                                     {stat.value}
                                 </div>
                                 <div className="mt-1 text-[11px] font-medium text-white/40 uppercase tracking-wider sm:text-xs">

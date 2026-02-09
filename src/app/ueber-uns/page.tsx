@@ -40,8 +40,8 @@ export default function UeberUnsPage() {
               Zurück zur Startseite
             </Link>
             <div className="mt-6 flex items-center gap-3">
-              <div className="h-[2px] w-10 bg-brass/70" />
-              <span className="text-[11px] font-medium uppercase tracking-[0.18em] text-brass/80 sm:text-xs">
+              <div className="h-[2px] w-10 bg-white/30" />
+              <span className="text-[11px] font-medium uppercase tracking-[0.18em] text-white/50 sm:text-xs">
                 Über uns
               </span>
             </div>

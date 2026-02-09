@@ -58,7 +58,7 @@ export default function MobileMenu({ navLinks, activeSection, mobileOpen, onClos
                         {String(i + 1).padStart(2, '0')}
                       </span>
                       <span className="flex-1 text-[15px] font-medium">{link.label}</span>
-                      <svg className={`h-4 w-4 transition-all duration-300 ${isActive ? 'text-brass' : 'text-text-muted/40 group-hover:translate-x-1 group-hover:text-brass'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <svg className={`h-4 w-4 transition-all duration-300 ${isActive ? 'text-white/60' : 'text-text-muted/40 group-hover:translate-x-1 group-hover:text-brass'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                       </svg>
                     </a>
@@ -69,7 +69,7 @@ export default function MobileMenu({ navLinks, activeSection, mobileOpen, onClos
           </nav>
 
           <div className="border-t border-border p-6">
-            <a href="/#kontakt" onClick={onClose} className="flex w-full items-center justify-center gap-2.5 rounded-xl bg-brass py-4 text-sm font-semibold text-white shadow-lg shadow-brass/25 transition-all duration-300 hover:bg-brass-light hover:-translate-y-0.5">
+            <a href="/#kontakt" onClick={onClose} className="flex w-full items-center justify-center gap-2.5 rounded-xl bg-brass py-4 text-sm font-semibold text-white shadow-lg shadow-brass/20 transition-all duration-300 hover:bg-brass-light hover:-translate-y-0.5">
               Projekt anfragen
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />

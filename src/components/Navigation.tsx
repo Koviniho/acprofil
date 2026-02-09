@@ -65,7 +65,7 @@ export default function Navigation() {
                       <span className={`relative z-10 text-[13px] font-medium tracking-wide transition-colors duration-300 ${
                         scrolled ? (isActive ? 'text-navy' : 'text-text-muted group-hover:text-navy') : (isActive ? 'text-white' : 'text-white/70 group-hover:text-white')
                       }`}>{link.label}</span>
-                      <span className={`absolute bottom-0 left-1/2 h-[2px] -translate-x-1/2 rounded-full bg-brass transition-all duration-300 ${isActive ? 'w-5 opacity-100' : 'w-0 opacity-0 group-hover:w-4 group-hover:opacity-100'}`} />
+                      <span className={`absolute bottom-0 left-1/2 h-[2px] -translate-x-1/2 rounded-full transition-all duration-300 ${scrolled ? 'bg-brass' : 'bg-white/70'} ${isActive ? 'w-5 opacity-100' : 'w-0 opacity-0 group-hover:w-4 group-hover:opacity-100'}`} />
                     </a>
                   )
                 })}

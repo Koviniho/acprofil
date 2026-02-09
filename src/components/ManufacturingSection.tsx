@@ -22,8 +22,8 @@ export default function ManufacturingSection() {
                     <div>
                         <div className="reveal">
                             <div className="mb-4 flex items-center gap-3">
-                                <div className="h-[1px] w-12 bg-brass" />
-                                <span className="text-xs font-medium uppercase tracking-[0.2em] text-brass">
+                                <div className="h-[1px] w-12 bg-white/30" />
+                                <span className="text-xs font-medium uppercase tracking-[0.2em] text-white/50">
                                     Kunststoffprofilherstellung
                                 </span>
                             </div>
@@ -51,8 +51,8 @@ export default function ManufacturingSection() {
 
                         {/* Profile types */}
                         <div className="reveal mt-12 grid grid-cols-2 gap-6">
-                            <div className="group rounded-xl border border-white/10 bg-white/5 p-6 transition-all duration-300 hover:border-brass/30 hover:bg-white/10">
-                                <div className="font-heading text-3xl font-bold text-brass">
+                            <div className="group rounded-xl border border-white/10 bg-white/5 p-6 transition-all duration-300 hover:border-white/20 hover:bg-white/10">
+                                <div className="font-heading text-3xl font-bold text-white">
                                     Voll
                                 </div>
                                 <div className="mt-1.5 text-sm font-medium text-white/60">
@@ -62,8 +62,8 @@ export default function ManufacturingSection() {
                                     Massive Querschnitte für maximale Stabilität und Belastbarkeit.
                                 </p>
                             </div>
-                            <div className="group rounded-xl border border-white/10 bg-white/5 p-6 transition-all duration-300 hover:border-brass/30 hover:bg-white/10">
-                                <div className="font-heading text-3xl font-bold text-brass">
+                            <div className="group rounded-xl border border-white/10 bg-white/5 p-6 transition-all duration-300 hover:border-white/20 hover:bg-white/10">
+                                <div className="font-heading text-3xl font-bold text-white">
                                     Hohl
                                 </div>
                                 <div className="mt-1.5 text-sm font-medium text-white/60">
@@ -104,12 +104,12 @@ export default function ManufacturingSection() {
                                     { step: 'Profil', desc: 'Fertiges Kunststoffprofil', w: '35%' },
                                 ].map((item, i) => (
                                     <div key={item.step} className="flex items-center gap-4">
-                                        <span className="w-6 text-right font-mono text-sm font-medium text-brass/70">
+                                        <span className="w-6 text-right font-mono text-sm font-medium text-white/50">
                                             {String(i + 1).padStart(2, '0')}
                                         </span>
                                         <div className="flex-1">
                                             <div
-                                                className="rounded-lg bg-gradient-to-r from-brass/25 to-brass/5 px-5 py-3 transition-all duration-300 hover:from-brass/35 hover:to-brass/10"
+                                                className="rounded-lg bg-gradient-to-r from-white/15 to-white/5 px-5 py-3 transition-all duration-300 hover:from-white/25 hover:to-white/10"
                                                 style={{ width: item.w }}
                                             >
                                                 <div className="text-sm font-semibold text-white">
@@ -126,7 +126,7 @@ export default function ManufacturingSection() {
 
                             <div className="mt-6 flex items-center gap-2 border-t border-white/5 pt-4">
                                 <svg
-                                    className="h-4 w-4 text-brass/60"
+                                    className="h-4 w-4 text-white/40"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
