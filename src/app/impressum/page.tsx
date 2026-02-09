@@ -17,7 +17,7 @@ export default function ImpressumPage() {
       <main>
         {/* Hero Header */}
         <section className="relative overflow-hidden bg-navy pt-32 pb-20 sm:pt-36 sm:pb-24">
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-navy via-[#0f1d35] to-[#162a4a]" />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-navy via-[#131d32] to-[#1a253d]" />
           <div className="grain-overlay" />
           <div className="relative z-10 px-8 sm:px-12 md:px-16">
             <Link

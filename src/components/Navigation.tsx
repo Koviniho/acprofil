@@ -49,7 +49,7 @@ export default function Navigation() {
       }`}>
         <div className={`absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-brass to-transparent transition-opacity duration-500 ${scrolled ? 'opacity-100' : 'opacity-0'}`} />
 
-        <nav className="mx-auto max-w-7xl px-6 sm:px-10 md:px-16 lg:px-20">
+        <nav className="mx-auto max-w-7xl px-6 sm:px-6 md:px-8 lg:px-10">
           <div className="flex h-16 items-center justify-between lg:h-[72px]">
             <a href="/" className="relative z-10 flex shrink-0 items-center transition-opacity duration-300 hover:opacity-80">
               <Image src="/logo.png" alt="AC PROFIL AG" width={160} height={32} className="h-8 w-auto sm:h-9" priority />
